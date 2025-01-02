@@ -6,4 +6,4 @@ note = {'username': input("Ведите ваше имя: "),
         'status': input("Введите статус заметки: "),
         'created_date': input("Введите дату создания заметки в формате ДД/ММ/ГГГГ: "),
         'issue_date': input("Введите дату истечения заметки в формате ДД/ММ/ГГГГ: ")}
-print(list(note))
+print(note)
