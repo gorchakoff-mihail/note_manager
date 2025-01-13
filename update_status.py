@@ -10,7 +10,7 @@ while True:                 # Использовал конструкцию дл
      for key, value in status_3.items():
          print(key, '-', value)
                              # Повторно выводим список статусов для просмотра пользователем
-     new_status = input('\nВедите новый статус заметки: ')
+     new_status = input('\nВведите новый статус заметки: ')
      if new_status in status_3:
          break               # Ввод нового статуса и окончание цикла при вводе статуса из списка
      else:
