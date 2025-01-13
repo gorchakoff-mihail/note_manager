@@ -5,7 +5,6 @@ for key, value in status_3.items():
                             # Использовал конструкцию для более удобного просмотра списка статусов пользователем.
 current_status = input('\nВведите текущий статус заметки: ')
 print(f'Текущий статус заметки: \n {status_3[current_status]}')
-current_status = input('\nВедите текущий статус заметки: ')
 while True:                 # Использовал конструкцию для цикла при вводе некорректного статуса
      print('\nСписок статусов: ')
      for key, value in status_3.items():
